@@ -7,4 +7,5 @@ color: beige;
 .col1{
     background-color: white;
     color:black;
+    float: left;
 }
