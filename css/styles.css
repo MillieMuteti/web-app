@@ -1,0 +1,10 @@
+body{background-image: url(images.jpeg);
+color: beige;
+}
+.jumbotron{
+    background-image: url(img.jpeg);
+}
+.col1{
+    background-color: white;
+    color:black;
+}
