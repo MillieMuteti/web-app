@@ -16,7 +16,7 @@ JavaScript,HTML,CSS
 ## Support and contact details
 Email address:milliemuteti@gmail.com
 ## live link
-*  MillieMuteti.github.io/web-app
+*  https://milliemuteti.github.io/web-app
  
 ### License
 *MIT License
