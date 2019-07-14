@@ -10,7 +10,7 @@ It is a web application that determines your Akan name based on your gender and 
 * Input the required details in the form provided and the web-application will determine your Akan name
 
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+The application sometimes give the wrong names and wrong day of births.
 ## Technologies Used
 JavaScript,HTML,CSS
 ## Support and contact details
