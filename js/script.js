@@ -18,7 +18,7 @@ function bYear() {
 }
 function bMonth() {
  var month = document.getElementById("month").value;
- if (month>12)alert("something is wrong");
+ if (month>12||)alert("something is wrong");
   store.push(month);
   //alert(store[2]);
 }
