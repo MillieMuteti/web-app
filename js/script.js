@@ -18,7 +18,7 @@ function bYear() {
 }
 function bMonth() {
  var month = document.getElementById("month").value;
- if (month>12||)alert("something is wrong");
+ if (month>12)alert("something is wrong");
   store.push(month);
   //alert(store[2]);
 }
@@ -50,7 +50,7 @@ function calculator(){
 function display(){
   if (store[4] === "male") {
       var yourName = male[store[5]];
-      var day = week[arr[5]];
+      var day = week[store[5]];
       alert(" Since you were born on " + day + " Your name is "+ yourName);
       }
       else if (store[4] === "female") {
