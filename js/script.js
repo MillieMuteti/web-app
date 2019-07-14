@@ -1,22 +1,6 @@
-/*function calculate(){
-    var CC = document.getElementById("century").value;
-    
-    var YY=document.getElementById("year").value;
-    
-    var MM=document.getElementById("month").value;
-    
-    var DD=document.getElementById("day").value;
-    
-}
 
-function day(CC,DD,MM,YY){
-    return ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7;
-}
-function akan(CC,DD,MM,YY){
- alert(parseInt(day(CC,DD,MM,YY)));
-}*/
 
-var arr = [];
+/* var arr = [];
 
 
 function century() {
@@ -85,4 +69,54 @@ function display2(){
        }else{
        alert("something is wrong");
        }
-    }
+    }*/var arr = [];
+var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+var femaleNames = ["Akosu", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Amna"];
+var week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+
+function century() {
+   cc = document.getElementById("century").value;
+   arr.push(cc);
+   //alert(arr[0]);
+}
+function year() {
+   var yy = document.getElementById("year").value;
+   arr.push(yy)
+};
+function month() {
+   mm = document.getElementById("month").value;
+   arr.push(mm);
+   //alert(arr[2]);
+}
+function dayM() {
+   dd = document.getElementById("day").value;
+   arr.push(dd);
+   //alert(arr[1]);
+}
+function gender(){
+   gg = document.getElementById("gender").value;
+   arr.push(gg)
+}
+
+function day(CC,YY,MM,DD){
+   return ((((CC/4)-2*CC-1)+((5*YY/4))+((26*(MM+1)/10))+DD)%7);
+   }
+function calculator(){
+  var weekDay = parseInt(day(arr[0],arr[1],arr[2],arr[3]).toFixed());
+  arr.push(weekDay);
+   }
+function final(){
+   if (arr[4] === "male") {
+       var yourName = maleNames[arr[5]]
+       var day = week[arr[5]]
+       alert(" Since you were born on " + day + " Your name is "+ yourName);
+       }
+       else if (arr[4] === "female") {
+           var fName = femaleNames[arr[5]]
+           var day = week[arr[5]]
+           alert(" Since you were born on " + day + " Your name is "+ fName);
+       }
+   }
+
+
