@@ -69,7 +69,8 @@ function display2(){
        }else{
        alert("something is wrong");
        }
-    }*/var arr = [];
+    }*/
+var arr = [];
 var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleNames = ["Akosu", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Amna"];
 var week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -102,7 +103,7 @@ function gender(){
 function day(CC,YY,MM,DD){
    return ((((CC/4)-2*CC-1)+((5*YY/4))+((26*(MM+1)/10))+DD)%7);
    }
-function calculator(){
+function display2(){
   var weekDay = parseInt(day(arr[0],arr[1],arr[2],arr[3]).toFixed());
   arr.push(weekDay);
    }
