@@ -16,7 +16,7 @@ JavaScript,HTML,CSS
 ## Support and contact details
 Email address:milliemuteti@gmail.com
 ## live link
-*  https://github.com/MillieMuteti/web-app/tree/gh-pages
+*  MillieMuteti.github.io/web-app
  
 ### License
 *MIT License
