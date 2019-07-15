@@ -13,6 +13,8 @@ function bCent() {
 }
 function bYear() {
   var year = document.getElementById("year").value;
+  if(year>99)alert("Something is wrong");
+  
   store.push(year);
   //alert(store[1]);
 }
@@ -44,7 +46,7 @@ function day(CC,YY,MM,DD){
 function calculator(){
   var weekDay = parseInt(day(store[0],store[1],store[2],store[3]).toFixed());
   store.push(weekDay);
-  alert(weekDay);
+  
   //alert(store[5]);
   }
 function display(){
