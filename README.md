@@ -1,5 +1,5 @@
 # WEB-APPLICATION
-#### Determines your Akan's names, 12th july 2019
+#### A web app that determines your Akan's names, 12th july 2019
 #### By **Millie Muteti**
 ## Description
 It is a web application that determines your Akan name based on your gender and the day you were born.It gets your exact date of birth by using a formula that calculates it by getting your year month and date of birth.
